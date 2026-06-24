@@ -1,23 +1,19 @@
-# 🎓 Student Management System
+Student Management System
 
-A full-featured web-based Student Management System built with **PHP**, **MySQL**, **HTML**, **CSS**, and **JavaScript**. Developed as a personal project to demonstrate full-stack web development skills.
+A full-featured web-based Student Management System built with **PHP**, **MySQL**, **HTML**, **CSS**, and **JavaScript**. Developed as a personal project to demonstrate full-stack web development skills
 
----
+1.  Features
 
-## 📋 Features
+1.  **Admin Authentication** — Secure login/logout system with password hashing
+2. **Student Management** — Add, Edit, Delete, and View student records (CRUD)
+3.  **Course Management** — Manage courses with instructor and department info
+4. **Grades Management** — Assign and track student grades with auto grade calculation
+5. **Dashboard** — Overview with stats: total students, courses, grade records, and top performers
+6. **Live Search** — Instant filter across all tables without page reload
+7. **Responsive Design** — Works on desktop, tablet, and mobile
+8. **Sample Data** — Pre-loaded with demo students, courses, and grades
 
-- 🔐 **Admin Authentication** — Secure login/logout system with password hashing
-- 👨‍🎓 **Student Management** — Add, Edit, Delete, and View student records (CRUD)
-- 📚 **Course Management** — Manage courses with instructor and department info
-- ⭐ **Grades Management** — Assign and track student grades with auto grade calculation
-- 📊 **Dashboard** — Overview with stats: total students, courses, grade records, and top performers
-- 🔍 **Live Search** — Instant filter across all tables without page reload
-- 📱 **Responsive Design** — Works on desktop, tablet, and mobile
-- ✅ **Sample Data** — Pre-loaded with demo students, courses, and grades
-
----
-
-## 🛠️ Tech Stack
+2.  Tech Stack
 
 | Technology | Usage |
 |------------|-------|
@@ -28,11 +24,8 @@ A full-featured web-based Student Management System built with **PHP**, **MySQL*
 | JavaScript | Live search, grade auto-calc, sidebar toggle |
 | Font Awesome | Icons |
 
----
+ 3.  Project Structure
 
-## 📁 Project Structure
-
-```
 student-management-system/
 │
 ├── index.php                  # Dashboard
@@ -71,73 +64,51 @@ student-management-system/
 │
 └── js/
     └── main.js                # Interactive features
-```
 
----
+4.   Installation & Setup
 
-## ⚙️ Installation & Setup
-
-### Requirements
+Requirements
 - PHP 7.4 or higher
 - MySQL 5.7 or higher
 - XAMPP / WAMP / LAMP (local) or any web hosting
 
-### Steps
+5.  Steps
 
-**1. Clone the repository**
-```bash
+1. Clone the repository
+bash
 git clone https://github.com/YourUsername/student-management-system.git
-```
 
-**2. Move to your server's root folder**
+2. Move to your server's root folder
 - For XAMPP: `C:/xampp/htdocs/student-management-system/`
 - For WAMP:  `C:/wamp64/www/student-management-system/`
 
-**3. Import the database**
+3. Import the database
 - Open **phpMyAdmin** → `http://localhost/phpmyadmin`
 - Create a new database named `student_management`
 - Click **Import** → select `database.sql` → click **Go**
 
-**4. Configure database connection**
+4. Configure database connection
 
 Open `includes/config.php` and update:
-```php
+php
 define('DB_HOST', 'localhost');
 define('DB_USER', 'root');      // your MySQL username
 define('DB_PASS', '');          // your MySQL password
 define('DB_NAME', 'student_management');
-```
 
-**5. Run the project**
+5. Run the project
 
 Open your browser and go to:
-```
 http://localhost/student-management-system/
-```
 
-**6. Login**
-```
+6. Login
+   
 Username: admin
 Password: admin123
-```
 
----
-
-## 📸 Screenshots
-
-> _Screenshots will be added after deployment._
-
----
-
-## 👨‍💻 Author
+ 7. Author
 
 **Aftab Murtaza**
-- 📧 Aftabmurtaza473@gmail.com
-- 🔗 [LinkedIn](https://linkedin.com/in/aftab-murtaza)
-- 🐙 [GitHub](https://github.com/AftabMurtaza)
-
----
-
-## 📄 License
-
-This project is open source and available for educational purposes.
+-  aftabmurtaza473@gmail.com
+-  [LinkedIn](https://www.linkedin.com/in/aftab-murtaza-756592357)
+-  [GitHub](https://github.com/aftabmurtaza473-art)
