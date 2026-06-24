@@ -84,9 +84,9 @@ student-management-system/
 **5. Steps**
 
  **1. Clone the repository**
-```bash
+
 git clone https://github.com/YourUsername/student-management-system.git
-```
+
 
 **2. Move to your server's root folder**
 - For XAMPP: `C:/xampp/htdocs/student-management-system/`
@@ -102,8 +102,8 @@ git clone https://github.com/YourUsername/student-management-system.git
 Open `includes/config.php` and update:
 ```php
 define('DB_HOST', 'localhost');
-define('DB_USER', 'root');      // your MySQL username
-define('DB_PASS', '');          // your MySQL password
+define('DB_USER', 'root');      
+define('DB_PASS', '');        
 define('DB_NAME', 'student_management');
 ```
 
