@@ -1,23 +1,22 @@
-# 🎓 Student Management System
+Student Management System
 
 A full-featured web-based Student Management System built with **PHP**, **MySQL**, **HTML**, **CSS**, and **JavaScript**. Developed as a personal project to demonstrate full-stack web development skills.
 
----
 
-## 📋 Features
+ **1. Features**
 
-- 🔐 **Admin Authentication** — Secure login/logout system with password hashing
-- 👨‍🎓 **Student Management** — Add, Edit, Delete, and View student records (CRUD)
-- 📚 **Course Management** — Manage courses with instructor and department info
-- ⭐ **Grades Management** — Assign and track student grades with auto grade calculation
-- 📊 **Dashboard** — Overview with stats: total students, courses, grade records, and top performers
-- 🔍 **Live Search** — Instant filter across all tables without page reload
-- 📱 **Responsive Design** — Works on desktop, tablet, and mobile
-- ✅ **Sample Data** — Pre-loaded with demo students, courses, and grades
+- 1. **Admin Authentication** — Secure login/logout system with password hashing
+- 2. **Student Management** — Add, Edit, Delete, and View student records (CRUD)
+- 3. **Course Management** — Manage courses with instructor and department info
+- 4. **Grades Management** — Assign and track student grades with auto grade calculation
+- 5. **Dashboard** — Overview with stats: total students, courses, grade records, and top performers
+- 6.**Live Search** — Instant filter across all tables without page reload
+- 7. **Responsive Design** — Works on desktop, tablet, and mobile
+- 8. **Sample Data** — Pre-loaded with demo students, courses, and grades
 
----
 
-## 🛠️ Tech Stack
+
+**2.  Tech Stack**
 
 | Technology | Usage |
 |------------|-------|
@@ -28,11 +27,11 @@ A full-featured web-based Student Management System built with **PHP**, **MySQL*
 | JavaScript | Live search, grade auto-calc, sidebar toggle |
 | Font Awesome | Icons |
 
----
 
-## 📁 Project Structure
 
-```
+**3.  Project Structure**
+
+
 student-management-system/
 │
 ├── index.php                  # Dashboard
@@ -73,18 +72,18 @@ student-management-system/
     └── main.js                # Interactive features
 ```
 
----
 
-## ⚙️ Installation & Setup
 
-### Requirements
+**4. Installation & Setup**
+
+ Requirements
 - PHP 7.4 or higher
 - MySQL 5.7 or higher
 - XAMPP / WAMP / LAMP (local) or any web hosting
 
-### Steps
+**5. Steps**
 
-**1. Clone the repository**
+ **1. Clone the repository**
 ```bash
 git clone https://github.com/YourUsername/student-management-system.git
 ```
@@ -111,7 +110,7 @@ define('DB_NAME', 'student_management');
 **5. Run the project**
 
 Open your browser and go to:
-```
+
 http://localhost/student-management-system/
 ```
 
@@ -123,21 +122,12 @@ Password: admin123
 
 ---
 
-## 📸 Screenshots
 
-> _Screenshots will be added after deployment._
 
----
-
-## 👨‍💻 Author
+**7.  Author**
 
 **Aftab Murtaza**
-- 📧 Aftabmurtaza473@gmail.com
-- 🔗 [LinkedIn](https://linkedin.com/in/aftab-murtaza)
-- 🐙 [GitHub](https://github.com/AftabMurtaza)
+-  Aftabmurtaza473@gmail.com
+-  [LinkedIn](https://www.linkedin.com/in/aftab-murtaza-756592357)
+- [GitHub](https://github.com/aftabmurtaza473-art)
 
----
-
-## 📄 License
-
-This project is open source and available for educational purposes.
