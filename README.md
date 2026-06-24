@@ -24,6 +24,7 @@ A full-featured web-based Student Management System built with **PHP**, **MySQL*
 | JavaScript | Live search, grade auto-calc, sidebar toggle |
 | Font Awesome | Icons |
 
+
  3.  Project Structure
 
 student-management-system/
@@ -64,6 +65,7 @@ student-management-system/
 │
 └── js/
     └── main.js                # Interactive features
+
 
 4.   Installation & Setup
 
